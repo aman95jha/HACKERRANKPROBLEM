@@ -1,0 +1,22 @@
+interface OddEven {
+String OddEven(int a);
+
+}
+
+public class Main
+
+{
+
+public static void main(String[] args) {
+
+int a1 = 10;
+int a2 = 15;
+
+OdEve z = (x)->x%2==0?"even":"odd";
+
+System.out.println(z.OddEven(a1));
+System.out.println(z.oddEven(a2));
+                 
+}
+
+}
